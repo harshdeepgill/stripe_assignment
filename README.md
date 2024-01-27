@@ -23,7 +23,7 @@ Before running the application, make sure you have the following installed on yo
 3. Install dependencies:
   npm install
 
-##Configuration
+## Configuration
 
 1. Create a .env file
   SECRET_KEY=your_stripe_secret_key
@@ -34,18 +34,18 @@ Replace your_stripe_secret_key with your actual Stripe secret key.
 
   npm start
 
-##API Endpoints
+## API Endpoints
 
 POST /api/v1/create_intent: Create a new payment intent.
 POST /api/v1/capture_intent/:id: Capture a payment intent by ID.
 POST /api/v1/create_refund/:id: Create a refund for a charge ID.
 GET /api/v1/get_intents: Retrieve the 10 most recent payment intents.
 
-##Logging
+## Logging
 
 Request details are logged to a file named logs.txt in the project directory.
 
-##Postman Link to the API
+## Postman Link to the API
 
 https://restless-spaceship-201555.postman.co/workspace/New-Team-Workspace~5b65884b-eb21-4a05-8197-06fda158115c/collection/29050300-d355270a-e93d-4785-ae7e-a7219b6c39aa?action=share&creator=29050300
 
