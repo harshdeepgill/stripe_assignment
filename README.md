@@ -30,7 +30,7 @@ Before running the application, make sure you have the following installed on yo
   PORT=3000  # Specify the desired port (optional)
 Replace your_stripe_secret_key with your actual Stripe secret key.
 
-##Running the Application
+## Running the Application
 
   npm start
 
